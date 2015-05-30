@@ -1,0 +1,125 @@
+# view res/layout/slider.xml #generated:24
+# view res/layout/slider.xml #generated:32
+# view res/layout/transport.xml #generated:31
+# view res/layout/transport.xml #generated:39
+# view res/layout/view_pager_main_radio.xml #generated:49
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.ii.mobile.application.ApplicationContext { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.ii.mobile.beacon.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:70
+-keep class com.ii.mobile.beacon.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class com.ii.mobile.beacon.NetworkStateChangeReciever { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class com.ii.mobile.beacon.SelectGeography { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class com.ii.mobile.beacon.StrengthReciever { <init>(...); }
+
+# view AndroidManifest.xml #generated:71
+-keep class com.ii.mobile.beacon.ViewPagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class com.ii.mobile.beacon.database.FlowProvider { <init>(...); }
+
+# view normal-v4\res/layout-normal-v4/beacon_wifi_list_fragment.xml #generated:85
+-keep class com.ii.mobile.beacon.fragments.SampleFragment { <init>(...); }
+
+# view res/layout/frag_title.xml #generated:80
+-keep class com.ii.mobile.fragments.RadioFragment { <init>(...); }
+
+# view res/layout/slider.xml #generated:9
+# view res/layout/transport.xml #generated:9
+-keep class com.ii.mobile.fragments.TitleFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.ii.mobile.home.TransportActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class com.ii.mobile.preferences.PreferencesActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:91
+-keep class com.ii.mobile.service.TransportNotificationService { <init>(...); }
+
+# view res/layout/task_list.xml #generated:37
+-keep class com.ii.mobile.task.activity.NavBar { <init>(...); }
+
+# view res/layout/frag_actions.xml #generated:159
+# view res/layout/frag_break.xml #generated:173
+# view res/layout/frag_num_break.xml #generated:44
+# view res/layout/frag_old_break.xml #generated:90
+# view res/layout/frag_old_break.xml #generated:97
+# view res/layout/frag_timer.xml #generated:23
+# view res/layout/frag_timer.xml #generated:31
+-keep class com.ii.mobile.timers.Swoosh { <init>(...); }
+
+# onClick res/layout/task_inspector.xml #generated:7
+-keepclassmembers class * { *** createRoundTripButtonClick(...); }
+
+# onClick res/layout/current_task_view.xml #generated:190
+# onClick res/layout/current_task_view.xml #generated:202
+-keepclassmembers class * { *** createRoundTripTaskButtonClick(...); }
+
+# onClick res/layout/current_task_view.xml #generated:158
+# onClick res/layout/current_task_view.xml #generated:170
+-keepclassmembers class * { *** createTransportationTaskButtonClick(...); }
+
+# onClick res/layout/current_task_view.xml #generated:73
+-keepclassmembers class * { *** delayButtonClick(...); }
+
+# onClick res/layout/dev_test_view.xml #generated:7
+-keepclassmembers class * { *** devTestButtonClick(...); }
+
+# onClick res/layout/on_break.xml #generated:73
+-keepclassmembers class * { *** finishBreakButtonClick(...); }
+
+# onClick res/layout/task_list.xml #generated:72
+-keepclassmembers class * { *** funnelClick(...); }
+
+# onClick res/layout/take_break.xml #generated:68
+# onClick res/layout/take_break.xml #generated:79
+-keepclassmembers class * { *** lunchBreakButtonClick(...); }
+
+# onClick res/layout/on_break.xml #generated:21
+# onClick res/layout/take_break.xml #generated:21
+-keepclassmembers class * { *** playAudioButtonClick(...); }
+
+# onClick res/layout/current_task_view.xml #generated:222
+# onClick res/layout/current_task_view.xml #generated:233
+-keepclassmembers class * { *** resumeTaskButtonClick(...); }
+
+# onClick res/layout/take_break.xml #generated:110
+# onClick res/layout/take_break.xml #generated:99
+-keepclassmembers class * { *** shortBreakButtonClick(...); }
+
+# onClick res/layout/current_task_view.xml #generated:126
+# onClick res/layout/current_task_view.xml #generated:138
+-keepclassmembers class * { *** startTaskButtonClick(...); }
+
+# onClick res/layout/frag_edit_task.xml #generated:25
+# onClick res/layout/self_task.xml #generated:25
+-keepclassmembers class * { *** submitButtonClick(...); }
+
+# onClick res/layout/current_task_view.xml #generated:105
+-keepclassmembers class * { *** taskCompleteTaskButtonClick(...); }
+
+# onClick res/layout/unit_test_view.xml #generated:7
+-keepclassmembers class * { *** unitTestButtonClick(...); }
+
+# onClick res/layout/task_list.xml #generated:83
+-keepclassmembers class * { *** upDownArrowsClick(...); }
+
+# onClick res/layout/on_break.xml #generated:32
+# onClick res/layout/take_break.xml #generated:32
+-keepclassmembers class * { *** volumeButtonClick(...); }
+
+# onClick res/layout/task_list.xml #generated:56
+-keepclassmembers class * { *** xButtonClick(...); }
+
