@@ -157,6 +157,6 @@
     <string name="devId">542a6dc183fb795b70000007</string>
     <string name="prodId">54295a34466eda478a000002</string>
     <string name="testId">5486db1c466eda134e00000b</string>
-    <string name="crothall_version">1.4.5</string>
+    <string name="crothall_version">1.5.66</string>
 
 </resources>
